@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="pokemonNameColor">#FF0000</color>
+    <color name="pokemonTypeColor">#00FF00</color>
+    <color name="pokemonAbilityColor">#0000FF</color>
 </resources>

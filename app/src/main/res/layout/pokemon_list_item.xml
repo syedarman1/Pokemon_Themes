@@ -14,23 +14,22 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
-
     <TextView
         android:id="@+id/labelName"
+        style="@style/MyTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Name:"
-        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/pokemonImageView" />
 
     <TextView
         android:id="@+id/pokemonNameTextView"
+        style="@style/MyTextStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:textSize="20sp"
         android:gravity="center"
         app:layout_constraintStart_toEndOf="@id/labelName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,8 +37,9 @@
         tools:text="Pikachu" />
 
 
-    <TextView
+<TextView
         android:id="@+id/labelType"
+    style="@style/MyTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -50,6 +50,7 @@
 
     <TextView
         android:id="@+id/pokemonTypeTextView"
+        style="@style/MyTextStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -62,6 +63,7 @@
 
     <TextView
         android:id="@+id/labelAbility"
+        style="@style/MyTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -72,6 +74,7 @@
 
     <TextView
         android:id="@+id/pokemonAbilityTextView"
+        style="@style/MyTextStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -81,5 +84,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/labelAbility"
         tools:text="Static" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

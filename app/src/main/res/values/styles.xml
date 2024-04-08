@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/pokemonNameColor</item>
+        <item name="android:fontFamily">@font/font</item>
+    </style>
+
+    <style name="MyTextStyle.PokemonType" parent="MyTextStyle">
+        <item name="android:textColor">@color/pokemonTypeColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MyTextStyle.PokemonAbility" parent="MyTextStyle">
+        <item name="android:textColor">@color/pokemonAbilityColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
